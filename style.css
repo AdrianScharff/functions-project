@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tl {
+    width: 30rem;
+    display: none;
+}
+
+.tl.showLight {
+    display: block;
+}
+
+.tDoc {
+    width: 60rem;
+}
